@@ -99,7 +99,8 @@ function Header2() {
                                     <li><Link href="/"><a>Our Mission</a></Link></li>
                                     <li><Link href="/"><a>About Us</a></Link></li>
                                     <li><Link href="/"><a>Our Product</a></Link></li>
-									<li><Link href="/contact-us-2"><a>Contact Us</a></Link></li>
+                                    <li><Link href="/"><a>Blog</a></Link></li>
+									<li><Link href="/"><a>Contact Us</a></Link></li>
 									
                                 </ul>
                                 <div className="dlab-social-icon">
