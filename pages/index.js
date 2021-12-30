@@ -1,55 +1,42 @@
-import { useEffect, useState } from "react";
-import Footer from "../src/layout/footer";
-import Header from "../src/layout/header";
-import Perloder from "../src/component/Preloader";
+import { useEffect, useState} from "react";
+import Head from 'next/head'
+import Slider from "../element/slider";
+
+import Footer from "../layout/footer";
+import Header from "../layout/header";
+import Preloader from "../element/Preloader";
+
 
 function Index() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false)
 
-  useEffect(() => {
+  useEffect(() =>{
     setLoading(true)
-    setTimeout(() => {
+    setTimeout(() =>{
       setLoading(false)
-    }, 2000)
-  }, [])
-
+    },1800)
+  },[])
   return (
     <>
-      {
-        loading ?
-         <Perloder />
-          :
-          <div>
-
-            <Header />
-            <div className="page-content bg-white">
-              <h1 style={{ textAlign: 'center' }}>
-                Lorem ipsum dolor sit amet, consectetur adip, Lorem Loremargin
-              </h1>
-              <h1 style={{ textAlign: 'center' }}>
-                Lorem ipsum dolor sit amet, consectetur adip, Lorem Loremargin
-              </h1>
-              <h1 style={{ textAlign: 'center' }}>
-                Lorem ipsum dolor sit amet, consectetur adip, Lorem Loremargin
-              </h1>
-              <h1 style={{ textAlign: 'center' }}>
-                Lorem ipsum dolor sit amet, consectetur adip, Lorem Loremargin
-              </h1>
-              <h1 style={{ textAlign: 'center' }}>
-                Lorem ipsum dolor sit amet, consectetur adip, Lorem Loremargin
-              </h1>
-              <h1 style={{ textAlign: 'center' }}>
-                Lorem ipsum dolor sit amet, consectetur adip, Lorem Loremargin
-              </h1>
-            </div>
-            <Footer />
-          </div>
-
-      }
-
-
+     <Head>
+        <title>Ajantrik | Technology that makes sense</title>
+        
+      </Head>
+    {
+      loading ?
+      <Preloader />
+      :
+      <>
+      <Header />
+      <div className="page-content bg-white">
+        <Slider />
+        
+      </div>
+      <Footer />
+      </>
+    }
+      
     </>
-
   );
 }
 

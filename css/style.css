@@ -1,7 +1,7 @@
 /*
-    Name: Samar 
-    Author: DexignZone
-    Portfolio : https://themeforest.net/user/dexignzone/portfolio
+    Name: Ajantrik 
+    Author: Ashish Kumar
+    Portfolio : 
    
 
     Table of Content: 
@@ -67,9 +67,30 @@
 *::after {
   box-sizing: border-box; }
 
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block; }
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #888;
+  text-align: left;
+  background-color: #fff; }
+
+[tabindex="-1"]:focus {
+  outline: 0 !important; }
 
 
-       
+     
   .ctn-preloader{
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -275,27 +296,6 @@
   }
    
 
-html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
-
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block; }
-
-body {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #888;
-  text-align: left;
-  background-color: #fff; }
-
-[tabindex="-1"]:focus {
-  outline: 0 !important; }
 
 hr {
   box-sizing: content-box;
@@ -364,6 +364,11 @@ sub {
 
 sup {
   top: -.5em; }
+
+.aimpot{
+  color: #ffffff !important;
+  text-decoration: none;
+  background-color: transparent; }
 
 a {
   color: #f55f8d;
@@ -11160,17 +11165,17 @@ textarea {
       z-index: -1;
       transition: all 0.5s; }
     .icon-bx-wraper.style-1 > [class*="icon-bx-"].bg-yellow:after {
-      background-image: url(/public/images/pattern/dots/yellow.png); }
+      background-image: url(.././public/images/pattern/dots/yellow.png); }
     .icon-bx-wraper.style-1 > [class*="icon-bx-"].bg-red:after {
-      background-image: url(/public/images/pattern/dots/red.png); }
+      background-image: url(.././public/images/pattern/dots/red.png); }
     .icon-bx-wraper.style-1 > [class*="icon-bx-"].bg-green:after {
-      background-image: url(/public/images/pattern/dots/green.png); }
+      background-image: url(.././public/images/pattern/dots/green.png); }
     .icon-bx-wraper.style-1 > [class*="icon-bx-"].bg-skyblue:after {
-      background-image: url(/public/images/pattern/dots/skyblue.png); }
+      background-image: url(.././public/images/pattern/dots/skyblue.png); }
     .icon-bx-wraper.style-1 > [class*="icon-bx-"].bg-orange:after {
-      background-image: url(/public/images/pattern/dots/orange.png); }
+      background-image: url(.././public/images/pattern/dots/orange.png); }
     .icon-bx-wraper.style-1 > [class*="icon-bx-"].bg-maroon:after {
-      background-image: url(/public/images/pattern/dots/maroon.png); }
+      background-image: url(.././public/images/pattern/dots/maroon.png); }
   .icon-bx-wraper.style-1:before, .icon-bx-wraper.style-1:after {
     content: "";
     position: absolute;
@@ -11180,13 +11185,13 @@ textarea {
     transform: scale(0.5);
     z-index: 0; }
   .icon-bx-wraper.style-1:before {
-    background-image: url(/public/images/pattern/pattern5.png);
+    background-image: url(.././public/images/pattern/pattern5.png);
     height: 100%;
     top: -30px;
     left: -30px;
     width: 100%; }
   .icon-bx-wraper.style-1:after {
-    background-image: url(/public/images/pattern/pattern6.png);
+    background-image: url(.././public/images/pattern/pattern6.png);
     height: 290px;
     bottom: -40px;
     right: -30px;
@@ -11228,17 +11233,17 @@ textarea {
       animation: rotate360 5s infinite;
       background-repeat: no-repeat; }
     .icon-bx-wraper.style-2 > [class*="icon-bx-"].text-red:before {
-      background-image: url(/public/images/pattern/icon-bx/red.png); }
+      background-image: url(.././public/images/pattern/icon-bx/red.png); }
     .icon-bx-wraper.style-2 > [class*="icon-bx-"].text-yellow:before {
-      background-image: url(/public/images/pattern/icon-bx/yellow.png); }
+      background-image: url(.././public/images/pattern/icon-bx/yellow.png); }
     .icon-bx-wraper.style-2 > [class*="icon-bx-"].text-green:before {
-      background-image: url(/public/images/pattern/icon-bx/green.png); }
+      background-image: url(.././public/images/pattern/icon-bx/green.png); }
     .icon-bx-wraper.style-2 > [class*="icon-bx-"].text-skyblue:before {
-      background-image: url(/public/images/pattern/icon-bx/skyblue.png); }
+      background-image: url(.././public/images/pattern/icon-bx/skyblue.png); }
     .icon-bx-wraper.style-2 > [class*="icon-bx-"].text-maroon:before {
-      background-image: url(/public/images/pattern/icon-bx/maroon.png); }
+      background-image: url(.././public/images/pattern/icon-bx/maroon.png); }
     .icon-bx-wraper.style-2 > [class*="icon-bx-"].text-orange:before {
-      background-image: url(/public/images/pattern/icon-bx/orange.png); }
+      background-image: url(.././public/images/pattern/icon-bx/orange.png); }
   .icon-bx-wraper.style-2 .icon-content {
     padding-left: 20px; }
   .icon-bx-wraper.style-2:hover > [class*="icon-bx-"] {
@@ -11282,7 +11287,7 @@ textarea {
       width: 100px;
       left: -13px;
       top: -15px;
-      background-image: url(/public/images/pattern/pattern1.png);
+      background-image: url(.././public/images/pattern/pattern1.png);
       background-repeat: no-repeat;
       background-size: cover; }
   .icon-bx-wraper.style-3 .wraper-effect {
@@ -11326,7 +11331,7 @@ textarea {
       right: -150px;
       bottom: -150px; }
     .icon-bx-wraper.style-3:hover > [class*="icon-bx-"]:before, .icon-bx-wraper.style-3.active > [class*="icon-bx-"]:before {
-      background-image: url(/public/images/pattern/pattern1-light.png); }
+      background-image: url(.././public/images/pattern/pattern1-light.png); }
   .icon-bx-wraper.style-3.left > [class*="icon-bx-"]:after {
     content: "";
     width: 70px;
@@ -11389,7 +11394,7 @@ textarea {
     font-size: 20px;
     transition: all 0.5s; }
   .icon-bx-wraper.style-5 .icon-bx {
-    background-image: url(/public/images/pattern/pattern10.png);
+    background-image: url(.././public/images/pattern/pattern10.png);
     background-color: rgba(245, 95, 141, 0.1);
     background-position: center;
     background-repeat: no-repeat;
@@ -11410,7 +11415,7 @@ textarea {
       border-color: transparent;
       color: #fff; }
     .icon-bx-wraper.style-5:hover .icon-bx, .icon-bx-wraper.style-5.active .icon-bx {
-      background-image: url(/public/images/pattern/pattern10.png), var(--gradient-sec);
+      background-image: url(.././public/images/pattern/pattern10.png), var(--gradient-sec);
       background-size: cover, 200%; }
       .icon-bx-wraper.style-5:hover .icon-bx .icon-cell, .icon-bx-wraper.style-5.active .icon-bx .icon-cell {
         color: #fff; }
@@ -12683,7 +12688,7 @@ textarea {
         position: absolute;
         top: -10px;
         left: -10px;
-        background-image: url(/public/images/pattern/pattern1.png);
+        background-image: url(.././public/images/pattern/pattern1.png);
         height: 110px;
         width: 110px;
         background-repeat: no-repeat; }
@@ -12707,7 +12712,7 @@ textarea {
         .pricingtable-wrapper.style-2.active [class*="icon-bx-"] .icon-cell i, .pricingtable-wrapper.style-2:hover [class*="icon-bx-"] .icon-cell i {
           color: #fff; }
         .pricingtable-wrapper.style-2.active [class*="icon-bx-"]:before, .pricingtable-wrapper.style-2:hover [class*="icon-bx-"]:before {
-          background-image: url(/public/images/pattern/pattern1-light.png); }
+          background-image: url(.././public/images/pattern/pattern1-light.png); }
       .pricingtable-wrapper.style-2.active .btn, .pricingtable-wrapper.style-2:hover .btn {
         color: #f55f8d;
         background-color: #fff;
@@ -12728,7 +12733,7 @@ textarea {
       margin-bottom: 10px; }
       .pricingtable-wrapper.style-3 .pricingtable-head:after {
         content: "";
-        background-image: url(/public/images/pattern/pattern4.png);
+        background-image: url(.././public/images/pattern/pattern4.png);
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: contain;
@@ -13262,11 +13267,11 @@ textarea {
           left: 0;
           top: 0; }
         .download-file ul li a i:before {
-          background-image: url(/public/images/icon/download-icon2.png);
+          background-image: url(.././public/images/icon/download-icon2.png);
           -webkit-animation: download1 2s ease infinite;
           animation: download1 2s ease infinite; }
         .download-file ul li a i:after {
-          background-image: url(/public/images/icon/download-icon1.png); }
+          background-image: url(.././public/images/icon/download-icon1.png); }
       .download-file ul li a .text {
         display: inline;
         position: relative; }
@@ -13322,7 +13327,7 @@ textarea {
   position: relative;
   border-radius: 10px;
   box-shadow: 0 0px 10px 4px rgba(31, 66, 135, 0.1);
-  background-image: url(/public/images/pattern/pattern3.png);
+  background-image: url(.././public/images/pattern/pattern3.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13646,7 +13651,7 @@ ul.primary li:before {
     text-align: center;
     border-radius: 50px;
     font-size: 14px;
-    color: #f55f8d;
+    color: #f4712a;
     background-color: #fff;
     transition: all 0.5s;
     margin: 2px; }
@@ -13772,7 +13777,7 @@ button.scroltop {
   margin-left: 100px; }
   .section-wraper-one .icon-bx-wraper:nth-child(2):before {
     content: "";
-    background-image: url(/public/images/pattern/pattern7.png);
+    background-image: url(.././public/images/pattern/pattern7.png);
     height: 450px;
     width: 100%;
     top: -140px;
@@ -13832,7 +13837,7 @@ button.scroltop {
   position: relative;
   overflow: hidden; }
   .banner-two:after {
-    background-image: url(/public/images/background/bg7.png);
+    background-image: url(.././public/images/background/bg7.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -13872,8 +13877,8 @@ button.scroltop {
     right: -180px;
     bottom: -220px; }
   .banner-two .dz-media {
-    -webkit-mask-image: url(/public/images/main-slider/slider2/pic2.png);
-    mask-image: url(/public/images/main-slider/slider2/pic2.png);
+    -webkit-mask-image: url(.././public/images/main-slider/slider2/pic2.png);
+    mask-image: url(.././public/images/main-slider/slider2/pic2.png);
     -webkit-mask-position: center center;
     mask-position: center center;
     -webkit-mask-repeat: no-repeat;
@@ -13916,7 +13921,7 @@ button.scroltop {
   background-position: bottom, top;
   background-repeat: no-repeat; }
   .banner-three:after {
-    background-image: url(/public/images/main-slider/slider3/pic2.png);
+    background-image: url(.././public/images/main-slider/slider3/pic2.png);
     content: "";
     position: absolute;
     bottom: 0;
@@ -14204,7 +14209,7 @@ button.scroltop {
   margin-top: 50px; }
   .about-wraper-3:after {
     content: "";
-    background-image: url(/public/images/pattern/pattern11.png);
+    background-image: url(.././public/images/pattern/pattern11.png);
     height: 100%;
     width: 800px;
     position: absolute;
@@ -14792,7 +14797,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
         -ms-transition: all 0.5s;
         transition: all 0.5s; }
       .testimonials-wraper-2 .testimonial-thumbs .testimonial-pic .shape-bx:after {
-        background-image: url(/public/images/pattern/pattern12.png);
+        background-image: url(.././public/images/pattern/pattern12.png);
         background-position: bottom;
         background-size: contain;
         height: 35px;
@@ -16085,7 +16090,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
   height: 480px; }
   .dlab-bnr-inr.style-1:after {
     content: "";
-    background-image: url(/public/images/banner/bnr4.png);
+    background-image: url(../public/images/banner/bnr4.png);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -16112,7 +16117,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
   height: 600px; }
   .dlab-bnr-inr.style-2:after {
     content: "";
-    background-image: url(/public/images/banner/bnr5.png);
+    background-image: url(../public/images/banner/bnr5.png);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -16358,7 +16363,7 @@ footer {
   background-size: contain; }
   .site-footer.style-2:before {
     content: "";
-    background-image: url(/public/images/pattern/pattern2.png);
+    background-image: url(../public/images/pattern/pattern2.png);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: contain;
