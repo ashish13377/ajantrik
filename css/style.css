@@ -5024,7 +5024,7 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #f55f8d !important; }
+  background-color: #f4712a!important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -5124,7 +5124,7 @@ button.bg-dark:focus {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #f55f8d !important; }
+  border-color: #f4712a!important; }
 
 .border-secondary {
   border-color: #262626 !important; }
@@ -8362,7 +8362,7 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #f55f8d !important; }
+  color: #f4712a!important; }
 
 a.text-primary:hover, a.text-primary:focus {
   color: #f1175a !important; }
@@ -10604,7 +10604,7 @@ textarea {
     color: #fff !important; }
 
 .gradient {
-  background-image: linear-gradient(to right, #f55f8d 0, #f22f6b 51%, #f55f8d 100%);
+  background-image: linear-gradient(to right, #f4712a0, #f22f6b 51%, #f4712a100%);
   background-size: 200%;
   border-color: transparent !important;
   transition: all 0.5s; }
@@ -11313,7 +11313,7 @@ textarea {
       height: 250px;
       width: 250px; }
     .icon-bx-wraper.style-3 .wraper-effect:after {
-      background-color: #f55f8d;
+      background-color: #f4712a;
       height: 150px;
       width: 150px; }
   .icon-bx-wraper.style-3:hover, .icon-bx-wraper.style-3.active {
@@ -13748,7 +13748,7 @@ ul.primary li:before {
     font-size: 32px; } }
 
 button.scroltop {
-  box-shadow: -4px 4px 24px -10px #f55f8d !important;
+  box-shadow: -4px 4px 24px -10px #f4712a!important;
   background: #f55f8d;
   border-color: #f55f8d;
   border-radius: 4px;
