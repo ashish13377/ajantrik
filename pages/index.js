@@ -7,6 +7,8 @@ import Footer from "../layout/footer";
 import Header from "../layout/header";
 import Preloader from "../element/Preloader";
 import CounterHome from "../component/home/counterhome";
+import ServicesHome from "../component/home/serviceshome";
+import TestimonialHome from "../component/home/testimonialhome";
 
 
 function Index() {
@@ -35,6 +37,8 @@ function Index() {
         <OurVision />
         <AboutUsHome />
         <CounterHome />
+        <ServicesHome />
+        <TestimonialHome />
         
       </div>
       <Footer />

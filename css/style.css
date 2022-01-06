@@ -13588,11 +13588,11 @@ ul.primary li:before {
       padding-top: 50px; } }
 
 .content-inner-3 {
-  padding-top: 70px;
+  padding-top: 20px;
   padding-bottom: 40px; }
   @media only screen and (max-width: 991px) {
     .content-inner-3 {
-      padding-top: 50px;
+      padding-top: 20px;
       padding-bottom: 20px; } }
 
 .dlab-media.style-1, .dlab-media.style-2, .dlab-media.style-3 {
@@ -14740,7 +14740,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
     content: "\f121";
     right: 30px;
     font-size: 70px;
-    color: #f55f8d; }
+    color: #f4712a; }
   @media only screen and (max-width: 767px) {
     .testimonial-4 {
       margin: 10px; } }
@@ -14775,7 +14775,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
       padding: 4px;
       position: relative;
       z-index: 2;
-      background-color: #f55f8d; }
+      background-color: #f4712a; }
     .testimonials-wraper-2 .testimonial-thumbs .testimonial-pic .shape-bx {
       position: relative;
       height: 35px;
@@ -14803,12 +14803,12 @@ icon-bx-wraper style-4:hover .icon-cell i,
         height: 35px;
         width: 50px; }
       .testimonials-wraper-2 .testimonial-thumbs .testimonial-pic .shape-bx:before {
-        background-color: #f55f8d;
+        background-color: #f4712a;
         height: 35px;
         width: 50px; }
     .testimonials-wraper-2 .testimonial-thumbs .testimonial-pic:before, .testimonials-wraper-2 .testimonial-thumbs .testimonial-pic:after {
       content: "";
-      background-color: #f55f8d;
+      background-color: #f4712a;
       border-radius: 50px;
       position: absolute;
       left: 50%;
