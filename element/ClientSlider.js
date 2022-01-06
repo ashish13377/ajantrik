@@ -48,7 +48,7 @@ function ClientSlider() {
 						/>
 						<img
 							className="logo-hover"
-							src="images/logo/logo-light1.png"
+							src="images/logo/lgo-light1.png"
 							alt=""
 						/>
 					</div>
@@ -57,7 +57,7 @@ function ClientSlider() {
 					<div className="clients-logo">
 						<img
 							className="logo-main"
-							src="images/logo/logo-pink2.png"
+							src="images/log/logo-pink2.png"
 							alt=""
 						/>
 						<img
@@ -71,7 +71,7 @@ function ClientSlider() {
 					<div className="clients-logo">
 						<img
 							className="logo-main"
-							src="images/logo/logo-pink3.png"
+							src="images/log/logo-pink3.png"
 							alt=""
 						/>
 						<img
@@ -123,20 +123,7 @@ function ClientSlider() {
 						/>
 					</div>
 				</div>
-				<div className="item">
-					<div className="clients-logo">
-						<img
-							className="logo-main"
-							src="images/logo/logo-pink6.png"
-							alt=""
-						/>
-						<img
-							className="logo-hover"
-							src="images/logo/logo-light6.png"
-							alt=""
-						/>
-					</div>
-				</div>
+				
 			</Slider>
         </>
     );

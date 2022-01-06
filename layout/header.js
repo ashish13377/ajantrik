@@ -74,7 +74,7 @@ function Header2() {
                             {/* <!-- Extra Nav --> */}
                             <div className="extra-nav">
                                 <div className="extra-cell">
-                                <Link href="contact-us-2">
+                                <Link href="create-quotation">
                                         <a className="btn btn-primary rounded-xl gradient shadow">Get A Quote</a>
                                     </Link>
                                 </div>
@@ -96,11 +96,11 @@ function Header2() {
                                 <ul className="nav navbar-nav navbar">
                                    
 									<li><Link href="/"><a>Home</a></Link></li>
-                                    <li><Link href="/"><a>Our Mission</a></Link></li>
-                                    <li><Link href="/"><a>About Us</a></Link></li>
-                                    <li><Link href="/"><a>Our Product</a></Link></li>
-                                    <li><Link href="/"><a>Blog</a></Link></li>
-									<li><Link href="/"><a>Contact Us</a></Link></li>
+                                    <li><Link href="/our-missions"><a>Our Mission</a></Link></li>
+                                    <li><Link href="/about-us"><a>About Us</a></Link></li>
+                                    <li><Link href="/our-products"><a>Our Product</a></Link></li>
+                                    <li><Link href="/blog"><a>Blog</a></Link></li>
+									<li><Link href="/contact-us"><a>Contact Us</a></Link></li>
 									
                                 </ul>
                                 <div className="dlab-social-icon">

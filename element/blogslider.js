@@ -3,7 +3,7 @@ import Slider from "react-slick";
 
 function BlogSlider() {
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         slidesToShow: 2,
         slidesToScroll: 1,

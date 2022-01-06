@@ -8,9 +8,8 @@ import Header from "../layout/header";
 import Preloader from "../element/Preloader";
 import CounterHome from "../component/home/counterhome";
 import ServicesHome from "../component/home/serviceshome";
-import TestimonialHome from "../component/home/testimonialhome";
 import BlogHome from "../component/home/bloghome";
-import ClientHome from "../component/home/clienthome";
+
 
 
 function Index() {
@@ -40,11 +39,13 @@ function Index() {
         <AboutUsHome />
         <CounterHome />
         <ServicesHome />
-        <TestimonialHome />
         <BlogHome />
-        <ClientHome />
-        
-        
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       </div>
       <Footer />
       </>
