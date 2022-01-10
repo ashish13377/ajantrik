@@ -1,10 +1,9 @@
 import Link from "next/link";
-import React,{useState} from 'react'
-import ModalVideo from 'react-modal-video';
-import Header from "../layout/header";
-import Footer from "../layout/footer";
-import Team from "../component/about-us/team";
+import { useState } from "react";
+import ModalVideo from "react-modal-video";
 
+import Footer from "../layout/footer";
+import Header from "../layout/header";
 
 function AboutUs() {
   const [isOpen, setOpen] = useState(false);
@@ -14,14 +13,17 @@ function AboutUs() {
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}
         <div
-          className="dlab-bnr-inr style-2 overlay-gradient-dark"
-          style={{ backgroundImage: "url(images/banner/bnr1.jpg)" }}
+          className="dlab-bnr-inr style-1 bg-primary"
+          style={{
+            backgroundImage: "url(images/banner/bnr2.png), var(--gradient-sec)",
+            backgroundSize: "cover, 200%",
+          }}
         >
           <div className="container">
             <div className="dlab-bnr-inr-entry">
-              <h1>About Us</h1>
+              <h1>About Us 3</h1>
               {/* <!-- Breadcrumb Row --> */}
-              <nav aria-label="breadcrumb" className="breadcrumb-row">
+              <nav aria-label="breadcrumb" className="breadcrumb-row style-1">
                 <ul className="breadcrumb">
                   <li className="breadcrumb-item">
                     <Link href="/">
@@ -39,46 +41,10 @@ function AboutUs() {
         </div>
         {/* <!-- Banner End --> */}
 
-        {/* <!-- About --> */}
-        <section className="content-inner">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-6 m-b30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
-                <div className="dz-media">
-                  <img src="images/about/img4.png" className="move-3" alt="" />
-                </div>
-              </div>
-              <div className="col-lg-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
-                <div className="section-head style-1 mb-4">
-                  <h6 className="sub-title bgl-primary m-b20 text-primary">About Us</h6>
-                  <h2 className="title">How We Can Help You Achieve Your Business Goal</h2>
-                </div>
-                <p>Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem. Suspendisse laoreet, quam sed faucibus feugiat, tortor velit suscipit orci, sed consectetur ante eros id urna. Mauris luctus nulla ut pharetra tempor.</p>
-                <p className="m-b30">Mauris egestas eleifend sapien eu malesuada. Phasellus at metus eget sapien tristique accumsan non sit amet augue.</p>
-                <div className="row">
-                  <div className="col-lg-6">
-                    <ul className="list-arrow primary">
-                      <li>Nulla dict posuere veliitae.</li>
-                      <li>Etiam orci magna, accumsan.</li>
-                      <li>Donec fringilla velit risusquis.</li>
-                      <li>Aliquam pulvinar tempor.</li>
-                    </ul>
-                  </div>
-                  <div className="col-lg-6">
-                    <ul className="list-arrow primary">
-                      <li>Nulla dict posuere veliitae.</li>
-                      <li>Etiam orci magna, accumsan.</li>
-                      <li>Donec fringilla velit risusquis.</li>
-                      <li>Aliquam diam tempor.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* <!-- About Us --> */}
+      
 
-        {/* <!-- Youtube Video --> */}
+        {/* <!-- Video --> */}
         <section className="video-wraper-1">
           <div className="content-inner bg-gray">
             <div className="container">
@@ -127,7 +93,7 @@ function AboutUs() {
                     channel="youtube"
                     autoplay
                     isOpen={isOpen}
-                    videoId="6_gjK_3jKA8"
+                    videoId="FzcfZyEhOoI"
                     onClose={() => setOpen(false)}
                   />
                 </div>
@@ -136,13 +102,537 @@ function AboutUs() {
           </div>
         </section>
 
-        {/* <!-- Team Member --> */}
-        <Team />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        {/* <!-- Services --> */}
+        <section className="content-inner">
+          <div className="container">
+            <div className="section-head style-3 text-center mb-4">
+              <h2 className="title">Our Speciallization</h2>
+              <div className="dlab-separator style-2 bg-primary"></div>
+            </div>
+            <div className="row">
+              <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.2s"
+              >
+                <div className="icon-bx-wraper style-5 box-hover text-center m-b30">
+                  <div className="icon-bx">
+                    <span className="icon-cell">
+                      <i className="flaticon-office"></i>
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h4 className="dlab-title m-b15">Strategy & Research</h4>
+                    <p className="m-b20">
+                      Mauris ut felis malesuada eros varius tristique a at orci.
+                      Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
+                      venenatis ipsum, et porttitor.
+                    </p>
+                    <Link href="services-3">
+                      <a className="btn btn-outline-primary">
+                        <i className="fa fa-angle-right"></i>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.4s"
+              >
+                <div className="icon-bx-wraper style-5 box-hover active text-center m-b30">
+                  <div className="icon-bx">
+                    <span className="icon-cell">
+                      <i className="flaticon-coding"></i>
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h4 className="dlab-title m-b15">Web Development</h4>
+                    <p className="m-b20">
+                      Mauris ut felis malesuada eros varius tristique a at orci.
+                      Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
+                      venenatis ipsum, et porttitor.
+                    </p>
+                    <Link href="services-3">
+                      <a className="btn btn-outline-primary">
+                        <i className="fa fa-angle-right"></i>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.6s"
+              >
+                <div className="icon-bx-wraper style-5 box-hover text-center m-b30">
+                  <div className="icon-bx">
+                    <span className="icon-cell">
+                      <i className="flaticon-laptop"></i>
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h4 className="dlab-title m-b15">Web Solution</h4>
+                    <p className="m-b20">
+                      Mauris ut felis malesuada eros varius tristique a at orci.
+                      Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
+                      venenatis ipsum, et porttitor.
+                    </p>
+                    <Link href="services-3">
+                      <a className="btn btn-outline-primary">
+                        <i className="fa fa-angle-right"></i>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+       
+
+        {/* <!-- Newsletter --> */}
+        <section
+          className="content-inner-3 wow fadeIn"
+          data-wow-duration="2s"
+          data-wow-delay="0.2s"
+          style={{
+            backgroundImage:
+              "url(images/background/bg12.png), var(--gradient-sec)",
+            backgroundSize: "cover, 200%",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <div className="container">
+            <div className="row align-items-center subscribe-wraper-1">
+              <div className="col-lg-7 col-md-6">
+                <h2 className="text-white title m-b30">
+                  Subscribe To Our Newsletter For Latest Update Of New Products
+                </h2>
+              </div>
+              <div className="col-lg-5 col-md-6">
+                <div className="dlab-subscribe style-3 max-w500">
+                  <form
+                    className="dzSubscribe"
+                    action="script/mailchamp.php"
+                    method="post"
+                  >
+                    <div className="dzSubscribeMsg"></div>
+                    <div className="form-group m-b30">
+                      <div className="input-group mb-0">
+                        <input
+                          name="dzEmail"
+                          required="required"
+                          type="email"
+                          className="form-control"
+                          placeholder="Email Address"
+                        />
+                        <div className="input-group-addon">
+                          <button
+                            name="submit"
+                            value="Submit"
+                            type="submit"
+                            className="btn btn-corner gradient shadow btn-primary"
+                          >
+                            Subscribe Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        
+
+        {/* <!-- Blog --> */}
+        <section className="content-inner">
+          <div className="container">
+            <div className="section-head style-3 text-center">
+              <h2 className="title">Our Blog & News</h2>
+              <div className="dlab-separator style-2 bg-primary"></div>
+            </div>
+            <div className="row">
+              <div
+                className="col-xl-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.2s"
+              >
+                <div className="dlab-blog blog-half m-b30">
+                    <div className="dlab-media">
+                        <img src="images/blog/default/thum1.jpg" alt="" />
+                    </div>
+                  <div className="dlab-info">
+                    <h5 className="dlab-title">
+                      <Link href="blog-details-3">
+                        <a>
+                          Vestibulum massa arcu, consectetu pellentesque
+                          scelerisque.
+                        </a>
+                      </Link>
+                    </h5>
+                    <p>
+                      Sed quis sagittis velit. Aliquam velit eros, bibendum ut
+                      massa et, consequat laoreet erat nam ac imperdiet.
+                    </p>
+                    <div className="dlab-meta">
+                      <ul>
+                        <li className="post-date">
+                          <i className="flaticon-clock m-r10"></i>7 March, 2020
+                        </li>
+                        <li className="post-comment">
+                          <a href="javascript:void(0);">
+                            <i className="flaticon-speech-bubble"></i>
+                            <span>15</span>
+                          </a>
+                        </li>
+                        <li className="post-share">
+                          <i className="flaticon-share"></i>
+                          <ul>
+                            <li>
+                              <a
+                                className="fa fa-facebook"
+                                href="javascript:void(0);"
+                              ></a>
+                            </li>
+                            <li>
+                              <a
+                                className="fa fa-twitter"
+                                href="javascript:void(0);"
+                              ></a>
+                            </li>
+                            <li>
+                              <a
+                                className="fa fa-linkedin"
+                                href="javascript:void(0);"
+                              ></a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.4s"
+              >
+                <div className="dlab-blog blog-half m-b30">
+                  <div className="dlab-media">
+						<img src="images/blog/default/thum2.jpg" alt="" />
+                  </div>
+                  <div className="dlab-info">
+                    <h5 className="dlab-title">
+                      <Link href="blog-details-3">
+                        <a>
+                          Quisque sem tortor, convallis in arcu eu, accumsan
+                          finibus massa.
+                        </a>
+                      </Link>
+                    </h5>
+                    <p>
+                      Sed quis sagittis velit. Aliquam velit eros, bibendum ut
+                      massa et, consequat laoreet erat nam ac imperdiet.
+                    </p>
+                    <div className="dlab-meta">
+                      <ul>
+                        <li className="post-date">
+                          <i className="flaticon-clock m-r10"></i>7 March, 2020
+                        </li>
+                        <li className="post-comment">
+                          <a href="javascript:void(0);">
+                            <i className="flaticon-speech-bubble"></i>
+                            <span>15</span>
+                          </a>
+                        </li>
+                        <li className="post-share">
+                          <i className="flaticon-share"></i>
+                          <ul>
+                            <li>
+                              <a
+                                className="fa fa-facebook"
+                                href="javascript:void(0);"
+                              ></a>
+                            </li>
+                            <li>
+                              <a
+                                className="fa fa-twitter"
+                                href="javascript:void(0);"
+                              ></a>
+                            </li>
+                            <li>
+                              <a
+                                className="fa fa-linkedin"
+                                href="javascript:void(0);"
+                              ></a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.6s"
+              >
+                <div className="dlab-blog blog-half m-b30">
+					<div className="dlab-media">
+						<img src="images/blog/default/thum3.jpg" alt="" />
+					</div>
+                  <div className="dlab-info">
+                    <h5 className="dlab-title">
+                      <Link href="blog-details-3">
+                        <a>
+                          Praesent ut lobortis purus hasellus libero orci,
+                          accumsan
+                        </a>
+                      </Link>
+                    </h5>
+                    <p>
+                      Sed quis sagittis velit. Aliquam velit eros, bibendum ut
+                      massa et, consequat laoreet erat nam ac imperdiet.
+                    </p>
+                    <div className="dlab-meta">
+                      <ul>
+                        <li className="post-date">
+                          <i className="flaticon-clock m-r10"></i>7 March, 2020
+                        </li>
+                        <li className="post-comment">
+                          <a href="javascript:void(0);">
+                            <i className="flaticon-speech-bubble"></i>
+                            <span>15</span>
+                          </a>
+                        </li>
+                        <li className="post-share">
+                          <i className="flaticon-share"></i>
+                          <ul>
+                            <li>
+                              <a
+                                className="fa fa-facebook"
+                                href="javascript:void(0);"
+                              ></a>
+                            </li>
+                            <li>
+                              <a
+                                className="fa fa-twitter"
+                                href="javascript:void(0);"
+                              ></a>
+                            </li>
+                            <li>
+                              <a
+                                className="fa fa-linkedin"
+                                href="javascript:void(0);"
+                              ></a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.8s"
+              >
+                <div className="dlab-blog blog-half m-b30">
+                  <div className="dlab-media">
+                  
+                        <img src="images/blog/default/thum4.jpg" alt="" />
+                      
+                  </div>
+                  <div className="dlab-info">
+                    <h5 className="dlab-title">
+                      <Link href="blog-details-3">
+                        <a>
+                          Fusce sem ligula, imperdiet sed nisi sit amet, euismod
+                          posuere.
+                        </a>
+                      </Link>
+                    </h5>
+                    <p>
+                      Sed quis sagittis velit. Aliquam velit eros, bibendum ut
+                      massa et, consequat laoreet erat nam ac imperdiet.
+                    </p>
+                    <div className="dlab-meta">
+                      <ul>
+                        <li className="post-date">
+                          <i className="flaticon-clock m-r10"></i>7 March, 2020
+                        </li>
+                        <li className="post-comment">
+                          <a href="javascript:void(0);">
+                            <i className="flaticon-speech-bubble"></i>
+                            <span>15</span>
+                          </a>
+                        </li>
+                        <li className="post-share">
+                          <i className="flaticon-share"></i>
+                          <ul>
+                            <li>
+                              <a
+                                className="fa fa-facebook"
+                                href="javascript:void(0);"
+                              ></a>
+                            </li>
+                            <li>
+                              <a
+                                className="fa fa-twitter"
+                                href="javascript:void(0);"
+                              ></a>
+                            </li>
+                            <li>
+                              <a
+                                className="fa fa-linkedin"
+                                href="javascript:void(0);"
+                              ></a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+     
+
+        {/* <!-- Contact Form --> */}
+        <section className="content-inner">
+          <div className="container">
+            <div className="row align-items-center">
+              <div
+                className="col-lg-6 m-b30 wow fadeInLeft"
+                data-wow-duration="2s"
+                data-wow-delay="0.2s"
+              >
+                <div className="dlab-media">
+                  <img src="images/about/img8.png" className="move-4" alt="" />
+                </div>
+              </div>
+              <div
+                className="col-lg-6 m-b30 wow fadeInRight"
+                data-wow-duration="2s"
+                data-wow-delay="0.4s"
+              >
+                <form
+                  className="dlab-form style-1 dzForm"
+                  method="POST"
+                  action="script/contact.php"
+                >
+                  <div className="section-head style-3">
+                    <h2 className="title">Get In Touch With Us</h2>
+                    <div className="dlab-separator style-2 bg-primary"></div>
+                  </div>
+                  <div className="dzFormMsg"></div>
+                  <input
+                    type="hidden"
+                    className="form-control"
+                    name="dzToDo"
+                    value="Contact"
+                  />
+                  <input
+                    type="hidden"
+                    className="form-control"
+                    name="reCaptchaEnable"
+                    value="0"
+                  />
+                  <div className="row">
+                    <div className="col-sm-12">
+                      <div className="input-group">
+                        <input
+                          name="dzName"
+                          type="text"
+                          required
+                          className="form-control"
+                          placeholder="Full Name"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-sm-12">
+                      <div className="input-group">
+                        <input
+                          name="dzEmail"
+                          type="text"
+                          required
+                          className="form-control"
+                          placeholder="Email Address"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-sm-12">
+                      <div className="input-group">
+                        <input
+                          name="dzOther[phone]"
+                          type="text"
+                          required
+                          className="form-control"
+                          placeholder="Phone No."
+                        />
+                      </div>
+                    </div>
+                    <div className="col-sm-6">
+                      <div className="input-group">
+                        <input
+                          name="dzOther[project_title]"
+                          type="text"
+                          required
+                          className="form-control"
+                          placeholder="Project Title"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-sm-6">
+                      <div className="input-group">
+                        <select
+                          name="dzOther[choose_service]"
+                          className="form-control"
+                          required
+                        >
+                          <option>Choose Service</option>
+                          <option value="1">Web Development</option>
+                          <option value="2">Web Design</option>
+                          <option value="3">Strategy & Research</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div className="col-sm-12">
+                      <div className="input-group">
+                        <textarea
+                          className="form-control"
+                          required
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div className="col-sm-12">
+                      <button
+                        type="submit"
+                        className="btn btn-corner gradient btn-block btn-primary"
+                      >
+                        Submit Now
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       <Footer />
     </>
