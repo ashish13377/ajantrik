@@ -2,6 +2,7 @@ import Link from "next/link";
 // import { useState } from "react";
 import Header from "../layout/header";
 import Footer from "../layout/footer";
+import AllProduct from "../component/our-product/products";
 
 
 function OurProducts() {
@@ -37,7 +38,9 @@ function OurProducts() {
         </div>
         {/* <!-- Banner End --> */}
 
-        {/* <!-- About --> */}
+        {/* <!-- Product --> */}
+        <AllProduct />
+
 
         {/* <!-- Testimonials --> */}
 

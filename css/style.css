@@ -2,8 +2,7 @@
     Name: Ajantrik 
     Author: Ashish Kumar
     Portfolio : 
-   
-
+  
     Table of Content: 
 
     1. Abstract
@@ -14,7 +13,6 @@
     6. Dashboard
     7. Pages
     
-    
 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 @import url("../icons/line-awesome/css/line-awesome.min.css");
@@ -23,7 +21,10 @@
 @import url("../icons/themify/themify-icons.css");
 :root {
   --gradient: linear-gradient(to right,#896eff 0,#5f3bff 51%,#896eff 100%);
-  --gradient-sec: linear-gradient(to right,#130065 0,#2b0ead 51%,#130065 100%); }
+  --gradient-sec: linear-gradient(to right,#130065 0,#2b0ead 51%,#130065 100%); 
+  --gradient-princing: linear-gradient(to right, #f8925bc7 0, #f4712ad1 51%, #f4712a 100%);
+}
+  
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -2382,12 +2383,12 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0rem rgba(71, 78, 115, 0.5); }
 
 .btn-outline-primary {
-  color: #f55f8d;
-  border-color: #f55f8d; }
+  color: #f4712a;
+  border-color: #f4712a; }
   .btn-outline-primary:hover {
     color: #fff;
-    background-color: #f55f8d;
-    border-color: #f55f8d; }
+    background-color: #f4712a;
+    border-color: #f4712a; }
   .btn-outline-primary:focus, .btn-outline-primary.focus {
     box-shadow: 0 0 0 0rem rgba(245, 95, 141, 0.5); }
   .btn-outline-primary.disabled, .btn-outline-primary:disabled {
@@ -8595,7 +8596,7 @@ strong,
   margin-bottom: 45px; }
 
 .bg-gray {
-  background-color: #f8f5ff; }
+  background-color: #fff9f5; }
 
 ::selection {
   color: #fff;
@@ -12665,7 +12666,7 @@ textarea {
     .pricingtable-wrapper.style-1 .btn {
       transition: all 0.5s; }
     .pricingtable-wrapper.style-1:hover, .pricingtable-wrapper.style-1.active {
-      background-image: var(--gradient);
+      background-image: var(--gradient-princing);
       background-size: 200%; }
       .pricingtable-wrapper.style-1:hover .pricingtable-features li, .pricingtable-wrapper.style-1.active .pricingtable-features li {
         color: #fff; }
@@ -14304,7 +14305,7 @@ button.scroltop {
     width: 90px;
     line-height: 90px;
     text-align: center;
-    background-color: #f55f8d;
+    background-color: #f4712a;
     border-radius: 50%;
     display: block;
     color: #fff;

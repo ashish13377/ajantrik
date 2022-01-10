@@ -1,5 +1,6 @@
 :root {
   --gradient: linear-gradient(to right,  #f8925b 0, #f4712a 51%,  #f55f8d 100%);
+  --gradient-princing: linear-gradient(to right, #f8925bc7 0, #f4712ad1 51%, #f4712a 100%);
   --gradient-sec2: linear-gradient(
     to right,
     #0e1b1f 0,

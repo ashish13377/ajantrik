@@ -96,7 +96,6 @@ function Header2() {
                                 <ul className="nav navbar-nav navbar">
                                    
 									<li><Link href="/"><a>Home</a></Link></li>
-                                    <li><Link href="/our-missions"><a>Our Mission</a></Link></li>
                                     <li><Link href="/about-us"><a>About Us</a></Link></li>
                                     <li><Link href="/our-products"><a>Our Product</a></Link></li>
                                     <li><Link href="/blog"><a>Blog</a></Link></li>

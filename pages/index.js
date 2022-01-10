@@ -19,7 +19,7 @@ function Index() {
     setLoading(true)
     setTimeout(() =>{
       setLoading(false)
-    },1800)
+    },1600)
   },[])
   return (
     <>
