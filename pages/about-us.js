@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { useState } from "react";
-import ModalVideo from "react-modal-video";
+import React,{useState} from 'react'
+import ModalVideo from 'react-modal-video';
 import Header from "../layout/header";
 import Footer from "../layout/footer";
 import Team from "../component/about-us/team";
