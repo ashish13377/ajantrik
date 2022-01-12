@@ -33,7 +33,7 @@ function Slider() {
                     animationName: "fadeInUp",
                   }}
                 >
-                  We Provide Automated warehouse Solution For You
+                  We Provide Automated warehouse Solutions For You
                 </h1>
                 <p
                   className="wow fadeInUp m-b30"
