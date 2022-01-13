@@ -18,21 +18,17 @@ function AboutVideo() {
                   data-wow-delay="0.2s"
                 >
                   <div className="section-head style-3 mb-4">
-                    <h2 className="title">Watch Us How Our Team Work Togather</h2>
+                    <h2 className="title">THE IDEAL WORK CULTURE</h2>
                     <div className="dlab-separator style-2 bg-primary"></div>
                   </div>
                   <p>
-                    Praesent fermentum nisl at ipsum facilisis viverra. Ut
-                    elementum accumsan finibus. Cras placerat lacinia mi, ac
-                    dictum ante. Donec libero enim, tincidunt sit amet venenatis
-                    id, maximus eu quam.{" "}
+                  We consider our team as one and we believe in inclusivity. Discrimination on the basis of gender, religion, caste or ethnicity is not acceptable to us. We aim to provide the best working environment for our employees.   Equality is the key to success, no boss, no sir . we work on a first name basis. Flexibility with a tinge of discipline. And a lot of fun at work!.{" "}
                   </p>
                   <ul className="list-check style-1 primary m-b30">
-                    <li>Suspendisse ullamcorper mollis orci in facilisis.</li>
-                    <li>Etiam orci magna, accumsan varius enim volutpat.</li>
+                    <li>Flexible working environment.</li>
+                    <li>Supportive work culture.</li>
                     <li>
-                      Donec fringilla velit risus, in imperdiet turpis euismod
-                      quis.
+                    Fun environment to work.
                     </li>
                   </ul>
                 </div>
