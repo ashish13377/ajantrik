@@ -12,11 +12,12 @@ function ServicesHome() {
 					<div className="col-lg-5 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
 						<div className="section-head style-3 mb-4">
 							<h6 className="sub-title text-primary bgl-primary m-b15">OUR PRODUCT</h6>
-							<h2 className="title">Behind The Story Of Automated warehouse Solution For You</h2>
+							<h2 className="title">Why pitch on automated warehouse solutions?</h2>
 						</div>
-						<p>Suspendisse potenti. Donec vel massa ut justo efficitur lacinia non ut felis. Etiam euismod, magna et efficitur ullamcorper, justo justo suscipit tellus, quis egestas lectus nulla ac velit. Morbi consequat vehicula tincidunt.</p>
-						<p>Suspendisse purus nibh, lacinia ut rutrum eu, tincidunt eleifend ligula. Maecenas tristique est vitae erat semper pellentesque.</p>
-						<p className="m-b30">Mauris sollicitudin tincidunt libero ac suscipit. Quisque ullamcorper consequat dui ut molestie.</p>
+						<p>In a country where almost 50% of the work force is dependent on the agro based industries , It is unfortunate that most of these individuals are exploited and forced to suffer losses due to lack of adequate and appropriate storage facilities.Automation of warehouse systems will minimize wastage and maximize utilization of the produce, leading to the growth of GDP.</p>
+						<p className="m-b30">It will thus open new doors for the farmers and other associated workers.
+Automated warehouse solutions can be a revolutionary step for the Indian economy. 
+</p>
 					</div>
 					<div className="col-lg-7">
 					<div className={`${open === "p1" ? "icon-bx-wraper style-3 left box-hover m-r100 m-b30 wow fadeInRight active" : "icon-bx-wraper style-3 left box-hover m-r100 m-b30 wow fadeInRight"}`} onMouseOver={() => setOpen("p1")}>
@@ -28,7 +29,11 @@ function ServicesHome() {
 							<div className="wraper-effect"></div>
 							<div className="icon-content">
 								<h4 className="dlab-title m-b15">Linear Arm Sorter</h4>
-								<p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue mattis varius. Suspendisse rhoncus nisl.</p>
+								<p>Designed with flexibility and efficiency , linear 
+arm sorter provides a phenomenal solution for 
+sortation. It is capable of delivering low to medium throughput and is available at
+economical ownership costs.
+</p>
 							</div>
 						</div>
 						<div className={`${open === "p2" ? "icon-bx-wraper style-3 left box-hover m-l100 m-b30 wow fadeInRight active" : "icon-bx-wraper style-3 left box-hover m-l100 m-b30 wow fadeInRight"}`} onMouseOver={() => setOpen("p2")}>
@@ -40,7 +45,10 @@ function ServicesHome() {
 							<div className="wraper-effect"></div>
 							<div className="icon-content">
 								<h4 className="dlab-title m-b15">Castor Deck</h4>
-								<p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue mattis varius. Suspendisse rhoncus nisl.</p>
+								<p>Castor decks are used in movement of aircraft pallets or ULDs through a 
+manual or semi-manual cargo system. They are high-yeilding,easily maintainable
+solution for moving heavy loaded containers in desired direction.
+</p>
 							</div>
 						</div>
 						<div className={`${open === "p3" ? "icon-bx-wraper style-3 left box-hover m-r100 m-b30 wow fadeInRight active" : "icon-bx-wraper style-3 left box-hover m-r100 m-b30 wow fadeInRight"}`} onMouseOver={() => setOpen("p3")}>
@@ -52,7 +60,11 @@ function ServicesHome() {
 							<div className="wraper-effect"></div>
 							<div className="icon-content">
 								<h4 className="dlab-title m-b15">Pick To Light</h4>
-								<p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue mattis varius. Suspendisse rhoncus nisl.</p>
+								<p> Pick to light technology enhances the productivity and efficiency of the 
+warehouse by guiding the employees with the help of LEDs ,thus helping them 
+in easier navigation. It minimizes th error rate and is a cost-effective 
+solution for faster and accurate picking.
+</p>
 							</div>
 						</div>
 					</div>

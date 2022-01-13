@@ -11,7 +11,7 @@ function OurVision() {
                         <h6 className="sub-title text-primary bgl-primary m-b15">
                             OUR VISION
                         </h6>
-                        <h2 className="title">How It’s Work</h2>
+                        <h2 className="title">HOW IT WORKS</h2>
                     </div>
                     <div className="row ">
                         <div className="col-lg-4 col-md-6">
@@ -24,7 +24,7 @@ function OurVision() {
                                 <div className="wraper-effect"></div>
                                 <div className="icon-content">
                                     <h4 className="dlab-title m-b15">Automation & AI</h4>
-                                    <p>We are making futuristic self-controlled robots for industrial purposes. Our robots are capable of solving problems related to the warehouse of the company and will be produced at the lowest price in the market. We are intended to make the labor system more skillful and productive</p>
+                                    <p>We are making futuristic self controlled robots to cater your industrial needs. Our robots are capable of solving problems and carrying out tasks efficiently. Our warehouses arrange the materials by loading and unloading with complete help of robotic and electric chargeable machines. We aim to bring our products in the market at a very reasonable cost.</p>
                                 </div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ function OurVision() {
                                 <div className="wraper-effect"></div>
                                 <div className="icon-content">
                                     <h4 className="dlab-title m-b15">Solving Farmer Suicides</h4>
-                                    <p>India is one of the countries which is solely dependent on farmers. By keeping that in mind, our experts have designed robots that will make their work easier. Our robotic system keeps a detailed outline of total products in the warehouse and their selling data as well. </p>
+                                    <p>Our robotic systems keeps a detailed outline of total products in the warehouse and their selling data as well. This minimises the meddling of middlemen which ensures that the farmers are getting the correct price for their produce. Thus solving a major issue behind farmer’s suicide. </p>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ function OurVision() {
                                 <div className="wraper-effect"></div>
                                 <div className="icon-content">
                                     <h4 className="dlab-title m-b15">Infrastructure Building</h4>
-                                    <p>Our robots are based on space efficiency, where we try to use each and every inch in the most efficient way. We are working with the size of robots, where we aim to configure such robots which can work most efficiently in a pickup space.</p>
+                                    <p>We have build our robots around the idea of space efficiency. We try to use each and every inch in the most efficient way. We are working with the size of robots, we aim to configure our robots in a way that it can work efficiently without comprising on quality in a pickup space.</p>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ function OurVision() {
                                 <div className="wraper-effect"></div>
                                 <div className="icon-content">
                                     <h4 className="dlab-title m-b15">Skilled Labour</h4>
-                                    <p>We keep in mind that in the industry all labours are highly efficient. The robots designed by us are very simple to use. By making things simpler we try to develop the skill of the labourers. As a result, if we have more skilled labours in the company then they will make fewer errors.</p>
+                                    <p>We are well aware of the fact that we have a shortage of skilled labours. Keeping that in mind, we have designed the robots in a way that it’s simple to use. Introducing robots to the sector will not only make things easier for the firm but will also develop the need of highly skilled labours which will increase the demand for skilled labours and create employment opportunities for them.</p>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ function OurVision() {
                                 <div className="wraper-effect"></div>
                                 <div className="icon-content">
                                     <h4 className="dlab-title m-b15">Digital India Initiative</h4>
-                                    <p>The world is shifting to the modern era and keeping that in mind we want India to be one tech geek country. This can only be done when we have a faster and efficient production house because it's the warehouse on which the supply to the market depends.</p>
+                                    <p>The world is shifting to the modern era with technological advances and we want India to make use of technology in the best way possible to develop it’s core competencies. This can be only achieved through combining state of the art technology with agriculture. We aim to achieve this by bringing faster and efficient production house because it’s the warehouse on which the supply to the market depends..</p>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +94,7 @@ function OurVision() {
                                 <div className="wraper-effect"></div>
                                 <div className="icon-content">
                                     <h4 className="dlab-title m-b15">Providing Employment</h4>
-                                    <p>Bringing in more robots in the production section of the company makes it more efficient. And when there will be demand for these robots in the market, the robot manufacturing companies will also hire more skilled laborers to increase their production.</p>
+                                    <p>By introducing robots we do not intend to take away job opportunities of the labours. Bringing in more robots in the production section of the company makes it more efficient.  When there will be demand for these robots in the market, the robot manufacturing companies will also hire more skilled laborers to increase their production. The unskilled labours can be organised and turned into skilled labours, making way for job opportunities for them..</p>
                                 </div>
                             </div>
                         </div>

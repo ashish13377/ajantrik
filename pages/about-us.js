@@ -52,23 +52,23 @@ function AboutUs() {
                   <h6 className="sub-title bgl-primary m-b20 text-primary">About Us</h6>
                   <h2 className="title">How We Can Help You Achieve Your Business Goal</h2>
                 </div>
-                <p>Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem. Suspendisse laoreet, quam sed faucibus feugiat, tortor velit suscipit orci, sed consectetur ante eros id urna. Mauris luctus nulla ut pharetra tempor.</p>
-                <p className="m-b30">Mauris egestas eleifend sapien eu malesuada. Phasellus at metus eget sapien tristique accumsan non sit amet augue.</p>
+                <p>We believe that agriculture is the core competency of our country. Though we have grown up hearing the slogan “ Jai jawaan,jai kisaan”, it’s an indisputable fact that the farmers of our countries are suffering. The motivation behind making our products Is to reduce the problems faced by the agro sector and digitalize it with our start of the art technology. </p>
+                <p className="m-b30">Our warehouse solution aims at solving some of the major problems faced by the agricultural sector i.e storage, data discrepancy and meddling of middlemen. It also aims at reducing labour costs and carrying out functions without labour with the help of robots. We offer all this at a very reasonable price.</p>
                 <div className="row">
                   <div className="col-lg-6">
                     <ul className="list-arrow primary">
-                      <li>Nulla dict posuere veliitae.</li>
-                      <li>Etiam orci magna, accumsan.</li>
-                      <li>Donec fringilla velit risusquis.</li>
-                      <li>Aliquam pulvinar tempor.</li>
+                      <li>Reduced stock out events.</li>
+                      <li>Greater inventory control.</li>
+                      <li>Fewer shipping errors.</li>
+                      <li>Enhanced material handling co-ordination.</li>
                     </ul>
                   </div>
                   <div className="col-lg-6">
                     <ul className="list-arrow primary">
-                      <li>Nulla dict posuere veliitae.</li>
-                      <li>Etiam orci magna, accumsan.</li>
-                      <li>Donec fringilla velit risusquis.</li>
-                      <li>Aliquam diam tempor.</li>
+                      <li>Improved workplace safety.</li>
+                      <li>Reduced inventory loss.</li>
+                      <li>Improved order fulfillment accuracy.</li>
+                      <li>Increased productivity and efficiency.</li>
                     </ul>
                   </div>
                 </div>

@@ -33,7 +33,7 @@ function Slider() {
                     animationName: "fadeInUp",
                   }}
                 >
-                  We Provide Automated warehouse Solutions For You
+                  We Provide Automated warehouse Solution For You
                 </h1>
                 <p
                   className="wow fadeInUp m-b30"
@@ -44,7 +44,7 @@ function Slider() {
                     animationName: "fadeInUp",
                   }}
                 >
-                That fulfillment through the combination of AI-Software and autonomous mobile robots to deliver high yield fulfillment.
+               We fulfill your industrial needs with a combination of AI-software and autonomous mobile robots to deliver high yield results.
                 </p>
                 <a
                   href="/about-us-2"
