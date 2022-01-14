@@ -37,7 +37,7 @@ function CounterHome() {
 							<div className="dlab-content-bx style-3 text-center">
 								<div className="icon-content">
 									<h2 className="m-b0 text-primary"><Counter count={5}/>+</h2>
-									<span className="title">Product Lunched</span>
+									<span className="title">Product Launched</span>
 									<div className="icon-md text-primary"> 
 										<span className="icon-cell">
 											<i className="flaticon-startup"></i>
