@@ -1,4 +1,4 @@
-
+import Head from "next/head";
 import Link from "next/link";
 import Header from "../layout/header";
 import Footer from "../layout/footer";
@@ -7,6 +7,10 @@ import Footer from "../layout/footer";
 function TermsConditions() {
   return (
     <>
+    <Head>
+        <title>Terms & Conditions | Ajantrik </title>
+        
+      </Head>
       <Header />
       <div className="page-content bg-white"> 
         {/* <!-- Banner  --> */}

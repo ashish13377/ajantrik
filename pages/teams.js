@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 // import { useState } from "react";
 import Header from "../layout/header";
 import Footer from "../layout/footer";
@@ -9,6 +10,10 @@ function Team() {
   //   const [isOpen, setOpen] = useState(false);
   return (
     <>
+    <Head>
+        <title>Our Team | Ajantrik </title>
+        
+      </Head>
       <Header />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}

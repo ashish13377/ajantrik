@@ -1,14 +1,19 @@
 import Link from "next/link";
+import Head from "next/head";
 // import { useState } from "react";
 import Header from "../layout/header";
 import Footer from "../layout/footer";
 import Quote2 from "../element/contact-from";
 
 
-function OurProducts() {
+function ContactUs() {
 //   const [isOpen, setOpen] = useState(false);
   return (
     <>
+    <Head>
+        <title>Contact Us | Ajantrik </title>
+        
+      </Head>
       <Header />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}
@@ -52,4 +57,4 @@ function OurProducts() {
   );
 }
 
-export default OurProducts;
+export default ContactUs;

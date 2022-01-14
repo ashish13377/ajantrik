@@ -1,5 +1,5 @@
 import { useEffect, useState} from "react";
-import Head from 'next/head'
+import Head from "next/head";
 import Slider from "../component/home/slider";
 import OurVision from "../component/home/our-vision"
 import AboutUsHome from "../component/home/aboutus"

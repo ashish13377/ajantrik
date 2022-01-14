@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 import Header from "../layout/header";
 import Footer from "../layout/footer";
 
@@ -6,6 +7,10 @@ import Footer from "../layout/footer";
 function PrivacyPolicy() {
   return (
     <>
+    <Head>
+        <title>Privacy & Policys | Ajantrik </title>
+        
+      </Head>
       <Header />
       <div className="page-content bg-white"> 
         {/* <!-- Banner  --> */}
@@ -15,7 +20,7 @@ function PrivacyPolicy() {
         >
           <div className="container">
             <div className="dlab-bnr-inr-entry">
-              <h1>Privacy & Policy</h1>
+              <h1>Privacy & Policys</h1>
               {/* <!-- Breadcrumb Row --> */}
               <nav aria-label="breadcrumb" className="breadcrumb-row">
                 <ul className="breadcrumb">
@@ -25,7 +30,7 @@ function PrivacyPolicy() {
                     </Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                  Privacy & Policy
+                  Privacy & Policys
                   </li>
                 </ul>
               </nav>

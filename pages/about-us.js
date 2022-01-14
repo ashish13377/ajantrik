@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 import AboutVideo from "../component/about-us/aboutvideo";
 import Header from "../layout/header";
 import Footer from "../layout/footer";
@@ -9,6 +10,9 @@ function AboutUs() {
 
   return (
     <>
+      <Head>
+        <title>About-us | Ajantrik </title>
+      </Head>
       <Header />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}
@@ -76,9 +80,9 @@ function AboutUs() {
             </div>
           </div>
         </section>
-        <AboutVideo/>
+        <AboutVideo />
 
-        
+
 
         {/* <!-- Team Member --> */}
         <Team />

@@ -1,13 +1,17 @@
 import Link from "next/link";
+import Head from "next/head";
 // import { useState } from "react";
 import Header from "../layout/header";
 import Footer from "../layout/footer";
 
 
 function Blog() {
-//   const [isOpen, setOpen] = useState(false);
+  //   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <title>Blog | Ajantrik </title>
+      </Head>
       <Header />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}
@@ -27,7 +31,7 @@ function Blog() {
                     </Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                  Blog
+                    Blog
                   </li>
                 </ul>
               </nav>
@@ -46,7 +50,7 @@ function Blog() {
         {/* <!-- Blog --> */}
 
         {/* <!-- Clients Logo --> */}
-       
+
       </div>
       <Footer />
     </>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 import Header from "../layout/header";
 import Footer from "../layout/footer";
 
@@ -6,6 +7,10 @@ import Footer from "../layout/footer";
 function FAQ() {
   return (
     <>
+    <Head>
+        <title>FAQ | Ajantrik </title>
+        
+      </Head>
       <Header />
       <div className="page-content bg-white"> 
         {/* <!-- Banner  --> */}
