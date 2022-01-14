@@ -2,6 +2,7 @@ import Link from "next/link";
 // import { useState } from "react";
 import Header from "../layout/header";
 import Footer from "../layout/footer";
+import Quote2 from "../element/contact-from";
 
 
 function OurProducts() {
@@ -13,7 +14,7 @@ function OurProducts() {
         {/* <!-- Banner  --> */}
         <div
           className="dlab-bnr-inr style-2 overlay-gradient-dark"
-          style={{ backgroundImage: "url(images/banner/bnr1.jpg)" }}
+          style={{ backgroundImage: "url(images/banner/bnr3.jpg)" }}
         >
           <div className="container">
             <div className="dlab-bnr-inr-entry">
@@ -38,6 +39,7 @@ function OurProducts() {
         {/* <!-- Banner End --> */}
 
         {/* <!-- Contact from --> */}
+        <Quote2/>
         
 
       

@@ -6,7 +6,7 @@ import AllProduct from "../component/our-product/products";
 
 
 function OurProducts() {
-//   const [isOpen, setOpen] = useState(false);
+  //   const [isOpen, setOpen] = useState(false);
   return (
     <>
       <Header />
@@ -14,7 +14,7 @@ function OurProducts() {
         {/* <!-- Banner  --> */}
         <div
           className="dlab-bnr-inr style-2 overlay-gradient-dark"
-          style={{ backgroundImage: "url(images/banner/bnr1.jpg)" }}
+          style={{ backgroundImage: "url(images/banner/bnr2.jpg)" }}
         >
           <div className="container">
             <div className="dlab-bnr-inr-entry">
@@ -28,7 +28,7 @@ function OurProducts() {
                     </Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                  Our Product
+                    Our Product
                   </li>
                 </ul>
               </nav>
@@ -41,15 +41,6 @@ function OurProducts() {
         {/* <!-- Product --> */}
         <AllProduct />
 
-
-        {/* <!-- Testimonials --> */}
-
-        {/*  */}
-
-        {/* <!-- Blog --> */}
-
-        {/* <!-- Clients Logo --> */}
-       
       </div>
       <Footer />
     </>

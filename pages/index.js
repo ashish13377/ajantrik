@@ -39,7 +39,7 @@ function Index() {
         <AboutUsHome />
         <CounterHome />
         <ServicesHome />
-        <BlogHome />
+        {/* <BlogHome /> */}
         <br/>
         <br/>
         <br/>

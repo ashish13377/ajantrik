@@ -1,6 +1,35 @@
-
+import { useState } from 'react';
+import{ init } from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
+init("user_MGnkBJgoTe9jEtreKlOQZ");
 
 function Quote2() {
+
+  const [fname, setFname] = useState();
+  const [lname, setLname] = useState();
+  const [email, setEmail] = useState();
+  const [phone, setPhone] = useState();
+  const [msg, setMsg] = useState();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    if (!fname || !email || !phone || !msg) {
+      alert("Please fill given field first!")
+    } else {
+      emailjs.sendForm('service_yw09u4o', 'template_5wrp7b5', e.target, 'user_MGnkBJgoTe9jEtreKlOQZ')
+        .then((result) => {
+          console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        });
+      alert("Message send!!!")
+      setFname("")
+      setLname("")
+      setEmail("")
+      setPhone("")
+      setMsg("")
+    }
+
+  }
 	return (
 		<>
 			<div className="content-inner" style={{"backgroundImage":"url(images/background/bg2.png)","backgroundRepeat":"no-repeat"}}>
@@ -18,78 +47,36 @@ function Quote2() {
 						</div>
 					</div>
 					<div className="col-lg-6 m-b30 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
-						<form className="dlab-form dzForm" method="POST" action="script/contact.php">
+						<form className="dlab-form dzForm" onSubmit={sendEmail} method="post">
 							<div className="dzFormMsg"></div>
 							<input type="hidden" className="form-control" name="dzToDo" value="Contact" />
 							<div className="row">
 								<div className="col-sm-6">
 									<div className="input-group">
-										<input name="dzName" required type="text" className="form-control" placeholder="First Name" />
+										<input name="fname" required type="text" className="form-control" placeholder="First Name" value={fname} onChange={(e) => setFname(e.target.value)} />
 									</div>
 								</div>
 								<div className="col-sm-6">
 									<div className="input-group">
-										<input name="last_name" required type="text" className="form-control" placeholder="Last Name" />
+										<input name="lname" required type="text" className="form-control" placeholder="Last Name" value={lname} onChange={(e) => setLname(e.target.value)}/>
 									</div>
 								</div>
 								<div className="col-sm-6">
 									<div className="input-group">
-										<input name="dzEmail" required type="text" className="form-control" placeholder="Email Address" />
+										<input name="email" required type="text" className="form-control" placeholder="Email Address" value={email} onChange={(e) => setEmail(e.target.value)}/>
 									</div>
 								</div>
 								<div className="col-sm-6">
 									<div className="input-group">
-										<input name="dzOther[phone]" required type="text" className="form-control" placeholder="Phone No." />
+										<input name="phone" required type="text" className="form-control" placeholder="Phone No." value={phone} onChange={(e) => setPhone(e.target.value)}/>
 									</div>
 								</div>
-								<div className="col-sm-6">
-									<div className="input-group">
-										<input name="dzOther[project_title]" required type="text" className="form-control" placeholder="Project Title" />
-									</div>
-								</div>
-								<div className="col-sm-6">
-									<div className="input-group">
-										<select name="dzOther[choose_service]" className="form-control" required>
-											<option selected>Choose Service</option>
-											<option value="1">Web Development</option>
-											<option value="2">Web Design</option>
-											<option value="3">Strategy & Research</option>
-										</select>
-									</div>
-								</div>
+								
 								<div className="col-sm-12">
 									<div className="input-group">
-										<textarea name="dzMessage" required className="form-control" placeholder="Message"></textarea>
+										<textarea name="msg" required className="form-control" placeholder="Message" value={msg} onChange={(e) => setMsg(e.target.value)}></textarea>
 									</div>
 								</div>
-								<div className="col-sm-12">
-									<div className="input-group">
-										<input name="dzOther[choose_file]" type="file" required className="form-control custom-file-input"/>
-										<label className="custom-file-label">Choose file</label>
-									</div>
-								</div>
-								<div className="col-sm-6">
-									<div className="input-group">
-										<input name="dzOther[estimated_buget]" type="text" required className="form-control" placeholder="Estimated Buget"/>
-									</div>
-								</div>
-								<div className="col-sm-6">
-									<div className="input-group">
-										<select name="dzOther[priority]" className="form-control" required>
-											<option selected>Priority</option>
-											<option value="1">One</option>
-											<option value="2">Two</option>
-											<option value="3">Three</option>
-										</select>
-									</div>
-								</div>
-								<div className="col-sm-6">
-									<div className="input-group">
-										<input name="dzOther[country]" type="text" required className="form-control" placeholder="Country"/>
-									</div>
-								</div>
-
-
 								<div className="col-sm-12 mt-2">
 									<button name="submit" type="submit" value="Submit" className="btn btn-primary gradient border-0 rounded-xl">Submit Now</button>
 								</div>

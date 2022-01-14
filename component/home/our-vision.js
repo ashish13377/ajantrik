@@ -1,7 +1,8 @@
 import { useState } from 'react';
 
+
 function OurVision() {
-    const [open, setOpen] = useState("p2")
+    const [open, setOpen] = useState()
     return (
         <>
             {/* <!-- Service --> */}
@@ -11,14 +12,14 @@ function OurVision() {
                         <h6 className="sub-title text-primary bgl-primary m-b15">
                             OUR VISION
                         </h6>
-                        <h2 className="title">HOW IT WORKS</h2>
+                        <h2 className="title">Our Major Focuses</h2>
                     </div>
                     <div className="row ">
                         <div className="col-lg-4 col-md-6">
                             <div className={`${open === "p1" ? "icon-bx-wraper style-3 m-b30 box-hover wow fadeInUp active" : "icon-bx-wraper style-3 m-b30 box-hover wow fadeInUp"}`} onMouseOver={() => setOpen("p1")}>
                                 <div className="icon-bx-sm radius bgl-primary">
-                                    <a href="javascript:void(0);" className="icon-cell">
-                                        <i className="flaticon-office"></i>
+                                    <a  className="icon-cell">
+                                        <i className="icon-artificial-intelligence"></i>
                                     </a>
                                 </div>
                                 <div className="wraper-effect"></div>
@@ -31,8 +32,8 @@ function OurVision() {
                         <div className="col-lg-4 col-md-6">
                             <div className={`${open === "p2" ? "icon-bx-wraper style-3 m-b30 box-hover wow fadeInUp active" : "icon-bx-wraper style-3 m-b30 box-hover wow fadeInUp"}`} onMouseOver={() => setOpen("p2")}>
                                 <div className="icon-bx-sm radius bgl-primary">
-                                    <a href="javascript:void(0);" className="icon-cell">
-                                        <i className="flaticon-office"></i>
+                                    <a  className="icon-cell">
+                                        <i className="icon-farmer"></i>
                                     </a>
                                 </div>
                                 <div className="wraper-effect"></div>
@@ -45,8 +46,8 @@ function OurVision() {
                         <div className="col-lg-4 col-md-6">
                             <div className={`${open === "p3" ? "icon-bx-wraper style-3 m-b30 box-hover wow fadeInUp active" : "icon-bx-wraper style-3 m-b30 box-hover wow fadeInUp"}`} onMouseOver={() => setOpen("p3")}>
                                 <div className="icon-bx-sm radius bgl-primary">
-                                    <a href="javascript:void(0);" className="icon-cell">
-                                        <i className="flaticon-pie-charts"></i>
+                                    <a className="icon-cell">
+                                        <i className="icon-cyber-security"></i>
                                     </a>
                                 </div>
                                 <div className="wraper-effect"></div>
@@ -59,8 +60,8 @@ function OurVision() {
                         <div className="col-lg-4 col-md-6" style={{ color: '-0px !important' }}>
                             <div className={`${open === "p4" ? "icon-bx-wraper style-3 m-b30 box-hover wow fadeInUp active" : "icon-bx-wraper style-3 m-b30 box-hover wow fadeInUp"}`} onMouseOver={() => setOpen("p4")}>
                                 <div className="icon-bx-sm radius bgl-primary">
-                                    <a href="javascript:void(0);" className="icon-cell">
-                                        <i className="flaticon-line-graph"></i>
+                                    <a  className="icon-cell">
+                                        <i className="icon-business-people"></i>
                                     </a>
                                 </div>
                                 <div className="wraper-effect"></div>
@@ -73,8 +74,8 @@ function OurVision() {
                         <div className="col-lg-4 col-md-6">
                             <div className={`${open === "p5" ? "icon-bx-wraper style-3 m-b30 box-hover wow fadeInUp active" : "icon-bx-wraper style-3 m-b30 box-hover wow fadeInUp"}`} onMouseOver={() => setOpen("p5")}>
                                 <div className="icon-bx-sm radius bgl-primary">
-                                    <a href="javascript:void(0);" className="icon-cell">
-                                        <i className="flaticon-help"></i>
+                                    <a  className="icon-cell">
+                                        <i className="icon-digitalization"></i>
                                     </a>
                                 </div>
                                 <div className="wraper-effect"></div>
@@ -87,8 +88,8 @@ function OurVision() {
                         <div className="col-lg-4 col-md-6">
                             <div className={`${open === "p6" ? "icon-bx-wraper style-3 m-b30 box-hover wow fadeInUp active" : "icon-bx-wraper style-3 m-b30 box-hover wow fadeInUp"}`} onMouseOver={() => setOpen("p6")}>
                                 <div className="icon-bx-sm radius bgl-primary">
-                                    <a href="javascript:void(0);" className="icon-cell">
-                                        <i className="flaticon-help"></i>
+                                    <a  className="icon-cell">
+                                        <i className="icon-headhunting"></i>
                                     </a>
                                 </div>
                                 <div className="wraper-effect"></div>

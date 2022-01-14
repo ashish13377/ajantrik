@@ -1,7 +1,31 @@
-function Footer2() {
+import { useState } from 'react';
+import{ init } from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
+init("user_MGnkBJgoTe9jEtreKlOQZ");
+
+
+
+
+function Footer() {
+	const [email, setEmail] = useState();
+const sendEmail = (e) => {
+  e.preventDefault();
+  if (!email ) {
+	alert("Please fill given field first!")
+  } else {
+	emailjs.sendForm('service_yw09u4o', 'template_1se9mys', e.target, 'user_MGnkBJgoTe9jEtreKlOQZ')
+	  .then((result) => {
+		console.log(result.text);
+	  }, (error) => {
+		console.log(error.text);
+	  });
+	alert("Thank you for subscribing our newsletter!!!")
+	setEmail("")
+  }
+}
   return (
     <>
-    {/* <!-- Footer --> */}
+
     <footer className="site-footer style-2" id="footer" style={{"backgroundImage":"url(images/background/bg4.png)"}}>
 		<div className="container">
 			<div className="dlab-subscribe style-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
@@ -10,11 +34,11 @@ function Footer2() {
 						<h2 className="title">Subscribe To Our Newsletter For Latest Update from Ajantrik</h2>
 					</div>
 					<div className="col-lg-5">
-						<form className="dzSubscribe" action="script/mailchamp.php" method="post">
+						<form className="dzSubscribe" onSubmit={sendEmail} method="post">
 							<div className="dzSubscribeMsg"></div>
 							<div className="form-group">
 								<div className="input-group">
-									<input name="dzEmail" required="required" type="email" className="form-control" placeholder="Your Email Address"/>
+									<input name="email" required="required" type="email" className="form-control" placeholder="Your Email Address" value={email} onChange={(e) => setEmail(e.target.value)}/>
 									<div className="input-group-addon">
 										<button name="submit" value="Submit" type="submit" className="btn btn-primary gradient fa fa-paper-plane-o"></button>
 									</div>
@@ -67,10 +91,10 @@ function Footer2() {
 						<div className="widget widget_services">
 							<h5 className="footer-title">Help Center</h5>
 							<ul>
-								<li><a href="javascript:void(0);">Contact</a></li>
-								<li><a href="javascript:void(0);">Feedback</a></li>
+								<li><a href="/contact-us">Contact</a></li>
+								{/* <li><a href="javascript:void(0);">Feedback</a></li>
 								<li><a href="javascript:void(0);">Join our slack</a></li>
-								<li><a href="javascript:void(0);">Terms</a></li>
+								<li><a href="javascript:void(0);">Terms</a></li> */}
 							</ul>
 						</div>
                     </div>
@@ -78,16 +102,16 @@ function Footer2() {
 						<div className="widget widget_services">
 						   <h5 className="footer-title">Legal</h5>
 							<ul>
-								<li><a href="javascript:void(0);">FAQ</a></li>
-								<li><a href="javascript:void(0);">Privacy Policy</a></li>
-								<li><a href="javascript:void(0);">Terms & Conditions</a></li>
+								<li><a href="/faq">FAQ</a></li>
+								<li><a href="/privacy-policy">Privacy Policy</a></li>
+								<li><a href="/terms-conditions">Terms & Conditions</a></li>
 							</ul>
 						</div>
                     </div>
                 </div>
             </div>
         </div>
-        {/* <!-- footer bottom part --> */}
+      
         <div className="footer-bottom">
             <div className="container">
                 <div className="row align-items-center">
@@ -107,9 +131,9 @@ function Footer2() {
             </div>
         </div>
     </footer>
-    {/* <!-- Footer End --></footer> */}
+    
     </>
   )
-}
+  }
 
-export default Footer2;
+export default Footer;

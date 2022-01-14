@@ -18,6 +18,7 @@
 @import url("../icons/line-awesome/css/line-awesome.min.css");
 @import url("../icons/font-awesome/css/font-awesome.min.css");
 @import url("../icons/flaticon/flaticon.css");
+@import url("../icons/fontello/fontello-2a63efee/css/fontello.css");
 @import url("../icons/themify/themify-icons.css");
 :root {
   --gradient: linear-gradient(to right,#896eff 0,#5f3bff 51%,#896eff 100%);
@@ -372,11 +373,11 @@ sup {
   background-color: transparent; }
 
 a {
-  color: #f55f8d;
+  color: #ee905d;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #f1175a;
+    color: #f4712a;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -2216,12 +2217,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f55f8d;
-  border-color: #f55f8d; }
+  background-color: #f4712a;
+  border-color: #f4712a; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #f33b73;
-    border-color: #f22f6b; }
+    background-color: #f1925e;
+    border-color: #f1925e; }
   .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0rem rgba(247, 119, 158, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
@@ -9867,7 +9868,7 @@ section {
   background-color: #5543d1; }
 
 .bgl-primary {
-  background-color: rgba(245, 95, 141, 0.1); }
+  background-color: rgb(245 157 95 / 10%); }
 
 .bgl-secondary {
   background-color: rgba(38, 38, 38, 0.1); }
@@ -12283,7 +12284,7 @@ textarea {
       height: 10px;
       content: '';
       opacity: 1;
-      background: #f55f8d;
+      background: #f4712a;
       border-radius: 30px;
       margin: 4px; }
   .slick-dots li.slick-active li {
@@ -12945,7 +12946,7 @@ textarea {
   border-radius: 10px; }
 .dlab-team.style-3 .overlay-content {
   position: absolute;
-  background-color: rgba(245, 95, 141, 0.7);
+  background-color: rgb(245 153 95 / 70%);
   top: 50%;
   width: 100%;
   height: 100%;
@@ -12966,7 +12967,7 @@ textarea {
   transition: all 0.5s;
   opacity: 1; }
 .dlab-team.style-3:hover .dlab-name a {
-  color: #f55f8d; }
+  color: #f4712a; }
 
 .dlab-accordion .collapsed {
   display: none; }
@@ -13552,7 +13553,7 @@ ul.list-arrow li:before {
   font-family: fontawesome;
   font-size: 24px; }
 ul.primary li:before {
-  color: #f55f8d; }
+  color: #f4712a; }
 
 .content-inner {
   padding-top: 100px;
@@ -13664,8 +13665,8 @@ ul.primary li:before {
   background-color: #f55f8d;
   color: #fff; }
 .dlab-social-icon.primary-light li a {
-  background-color: rgba(245, 95, 141, 0.1);
-  color: #f55f8d; }
+  background-color: rgb(245 150 95 / 10%);
+    color: #f4712a; }
   .dlab-social-icon.primary-light li a:hover {
     color: #fff;
     background-image: var(--gradient);
@@ -15086,7 +15087,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
     font-weight: 700;
     line-height: 160px;
     margin: auto;
-    color: #f55f8d;
+    color: #f4712a;
     opacity: 0.2; }
   .error-page .error-head {
     font-size: 30px;
