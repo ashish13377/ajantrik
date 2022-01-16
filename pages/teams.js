@@ -278,6 +278,37 @@ function Team() {
                 <div className="dlab-team style-3 m-b30">
                   <div className="dlab-media">
                     <a>
+                      <img src="images/team/pic19.png" alt="" />
+                    </a>
+                    <div className="overlay-content">
+                      <ul className="dlab-social-icon">
+                        <li>
+                          <a
+                            href="https://www.linkedin.com/in/ashish-kumar-7a5b401ba/" target="_blank"
+                            className="fa fa-linkedin"
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="dlab-content">
+                    <div className="clearfix">
+                      <h4 className="dlab-name">
+                        <a>Ashish Kumar</a>
+                      </h4>
+                      <span className="dlab-position">Software Developer </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-3 col-sm-4 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.3s"
+              >
+                <div className="dlab-team style-3 m-b30">
+                  <div className="dlab-media">
+                    <a>
                       <img src="images/team/pic8.png" alt="" />
                     </a>
                     <div className="overlay-content">
@@ -394,37 +425,7 @@ function Team() {
                   </div>
                 </div>
               </div>
-              <div
-                className="col-lg-3 col-sm-4 wow fadeInUp"
-                data-wow-duration="2s"
-                data-wow-delay="0.3s"
-              >
-                <div className="dlab-team style-3 m-b30">
-                  <div className="dlab-media">
-                    <a>
-                      <img src="images/team/pic14.png" alt="" />
-                    </a>
-                    <div className="overlay-content">
-                      <ul className="dlab-social-icon">
-                        <li>
-                          <a
-                            href="https://www.linkedin.com/in/abhishek-biswas2002/" target="_blank"
-                            className="fa fa-linkedin"
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="dlab-content">
-                    <div className="clearfix">
-                      <h4 className="dlab-name">
-                        <a>Abhishek Biswas</a>
-                      </h4>
-                      <span className="dlab-position">Technical Associate</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
               <div
                 className="col-lg-3 col-sm-4 wow fadeInUp"
                 data-wow-duration="2s"
@@ -526,6 +527,37 @@ function Team() {
                 <div className="dlab-team style-3 m-b30">
                   <div className="dlab-media">
                     <a>
+                      <img src="images/team/pic14.png" alt="" />
+                    </a>
+                    <div className="overlay-content">
+                      <ul className="dlab-social-icon">
+                        <li>
+                          <a
+                            href="https://www.linkedin.com/in/abhishek-biswas2002/" target="_blank"
+                            className="fa fa-linkedin"
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="dlab-content">
+                    <div className="clearfix">
+                      <h4 className="dlab-name">
+                        <a>Abhishek Biswas</a>
+                      </h4>
+                      <span className="dlab-position">Technical Associate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-3 col-sm-4 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.3s"
+              >
+                <div className="dlab-team style-3 m-b30">
+                  <div className="dlab-media">
+                    <a>
                       <img src="images/team/pic16.png" alt="" />
                     </a>
                     <div className="overlay-content">
@@ -549,6 +581,69 @@ function Team() {
                   </div>
                 </div>
               </div>
+              <div
+                className="col-lg-3 col-sm-4 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.3s"
+              >
+                <div className="dlab-team style-3 m-b30">
+                  <div className="dlab-media">
+                    <a>
+                      <img src="images/team/pic17.png" alt="" />
+                    </a>
+                    <div className="overlay-content">
+                      <ul className="dlab-social-icon">
+                        <li>
+                          <a
+                            href="https://www.linkedin.com/in/rhisita-pal-9331111a5/" target="_blank"
+                            className="fa fa-linkedin"
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="dlab-content">
+                    <div className="clearfix">
+                      <h4 className="dlab-name">
+                        <a>Rhisita Pal</a>
+                      </h4>
+                      <span className="dlab-position">Public Relations Executive</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-3 col-sm-4 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.3s"
+              >
+                <div className="dlab-team style-3 m-b30">
+                  <div className="dlab-media">
+                    <a>
+                      <img src="images/team/pic18.png" alt="" />
+                    </a>
+                    <div className="overlay-content">
+                      <ul className="dlab-social-icon">
+                        <li>
+                          <a
+                            href="https://www.linkedin.com/in/sampriti-mukherjee-6531a120b/" target="_blank"
+                            className="fa fa-linkedin"
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="dlab-content">
+                    <div className="clearfix">
+                      <h4 className="dlab-name">
+                        <a>Sampriti Mukherjee</a>
+                      </h4>
+                      <span className="dlab-position">Content Writer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
           </div>
         </section>
