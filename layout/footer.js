@@ -116,7 +116,7 @@ const sendEmail = (e) => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-7 text-left"> 
-						<span className="copyright-text">Copyright © 2021 <a href="/">Ajantrik</a>. All rights reserved.</span> 
+						<span className="copyright-text">Copyright © 2022 <a href="/">Ajantrik</a>. All rights reserved.</span> 
 					</div>
 					<div className="col-lg-6 col-md-5 text-right"> 
 						<div className="dlab-social-icon">
