@@ -170,7 +170,7 @@ function Team() {
                   <div className="dlab-content">
                     <div className="clearfix">
                       <h4 className="dlab-name">
-                        <a >James Sarkodie Addoe</a>
+                        <a >James Sarkodie Addo</a>
                       </h4>
                       <span className="dlab-position">Director</span>
                     </div>
