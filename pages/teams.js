@@ -110,7 +110,7 @@ function Team() {
                       <h4 className="dlab-name">
                         <a >Sayan Sen</a>
                       </h4>
-                      <span className="dlab-position">Director</span>
+                      <span className="dlab-position">C.E.O.</span>
                     </div>
                   </div>
                 </div>
