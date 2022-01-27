@@ -426,37 +426,7 @@ function Team() {
                 </div>
               </div>
               
-              <div
-                className="col-lg-3 col-sm-4 wow fadeInUp"
-                data-wow-duration="2s"
-                data-wow-delay="0.3s"
-              >
-                <div className="dlab-team style-3 m-b30">
-                  <div className="dlab-media">
-                    <a>
-                      <img src="images/team/pic13.png" alt="" />
-                    </a>
-                    <div className="overlay-content">
-                      <ul className="dlab-social-icon">
-                        <li>
-                          <a
-                            href="https://www.linkedin.com/in/videh-jain-13412321b" target="_blank"
-                            className="fa fa-linkedin"
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="dlab-content">
-                    <div className="clearfix">
-                      <h4 className="dlab-name">
-                        <a>Videh Jain</a>
-                      </h4>
-                      <span className="dlab-position">Technical Associate</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
               <div
                 className="col-lg-3 col-sm-4 wow fadeInUp"
                 data-wow-duration="2s"
@@ -488,37 +458,7 @@ function Team() {
                   </div>
                 </div>
               </div>
-              <div
-                className="col-lg-3 col-sm-4 wow fadeInUp"
-                data-wow-duration="2s"
-                data-wow-delay="0.3s"
-              >
-                <div className="dlab-team style-3 m-b30">
-                  <div className="dlab-media">
-                    <a>
-                      <img src="images/team/pic15.png" alt="" />
-                    </a>
-                    <div className="overlay-content">
-                      <ul className="dlab-social-icon">
-                        <li>
-                          <a
-                            href="https://www.linkedin.com/in/raunak-madhogaria-03b866204" target="_blank"
-                            className="fa fa-linkedin"
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="dlab-content">
-                    <div className="clearfix">
-                      <h4 className="dlab-name">
-                        <a>Raunak Madhgoria</a>
-                      </h4>
-                      <span className="dlab-position">Technical Associate</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
               <div
                 className="col-lg-3 col-sm-4 wow fadeInUp"
                 data-wow-duration="2s"
