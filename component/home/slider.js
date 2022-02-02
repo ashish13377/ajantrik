@@ -30,6 +30,7 @@ function Slider() {
                   style={{
                     visibility: "visible",
                     animationDelay: "1s",
+                    fontSize: "40px",
                     animationName: "fadeInUp",
                   }}
                 >
@@ -66,7 +67,7 @@ function Slider() {
         </div>
       </div>
       <div className="dz-media">
-        <img src="images/main-slider/slider2/pic1.jpg" alt />
+        <img src="images/main-slider/slider2/pic1.png" alt />
       </div>
     </div>
   );

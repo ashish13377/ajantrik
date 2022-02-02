@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
-function Header2() {
+function Header() {
     const [show, setShow] = useState(false);
     const [open, setOpen] = useState("home");
     return (
@@ -94,11 +94,26 @@ function Header2() {
                                 </div>
 
                                 <ul className="nav navbar-nav navbar">
+                                
                                    
 									<li><Link href="/"><a>Home</a></Link></li>
                                     <li><Link href="/about-us"><a>About Us</a></Link></li>
                                     <li><Link href="/our-products"><a>Our Product</a></Link></li>
-                                    <li><Link href="/teams"><a>Our Team</a></Link></li>
+                                    <li
+                                        className={`${
+                                            open === "about" ? "open" : ""
+                                        }`}
+                                    >
+                                        <a onClick={() => setOpen("about")}>
+                                            <span>Our Pages</span>
+                                            <i className="fa fa-chevron-down"></i>
+                                        </a>
+                                        <ul className="sub-menu">
+											<li><Link href="/gallery"><a>Gallery</a></Link></li>
+											<li><Link href="/teams"><a>Team</a></Link></li>
+                                        </ul>
+                                    </li>
+                                    {/* <li><Link href="/teams"><a>Our Team</a></Link></li> */}
                                     {/* <li><Link href="/blog"><a>Blog</a></Link></li> */}
 									<li><Link href="/contact-us"><a>Contact Us</a></Link></li>
 									
@@ -127,4 +142,4 @@ function Header2() {
     );
 }
 
-export default Header2;
+export default Header;

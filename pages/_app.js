@@ -55,7 +55,7 @@ function MyApp({ Component, pageProps }) {
   header === "fixed" && scrollPosition > 10
     ? header_ && header_[0].classList.add("is-fixed")
     : header_ && header_[0].classList.remove("is-fixed");
-
+    
   return (
     <>
       <div className="page-wraper">
