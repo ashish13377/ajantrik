@@ -15,7 +15,7 @@ function Gallery() {
       {/* <!-- Banner  --> */}
       <div
           className="dlab-bnr-inr style-2 overlay-gradient-dark"
-          style={{ backgroundImage: "url(images/banner/bnr3.jpg)" }}
+          style={{ backgroundImage: "url(images/banner/bnr11.png)" }}
         >
           <div className="container">
             <div className="dlab-bnr-inr-entry">
@@ -43,7 +43,7 @@ function Gallery() {
 			<div className="container">
 				<div className="section-head style-3 text-center">
 					<h6 className="sub-title text-primary bgl-primary m-b15">OUR GALLERY</h6> 
-					<h2 className="title">Take A Look At Our Latest Photos Album</h2>
+					<h2 className="title">Take A Look At Our Latest Photo Album</h2>
 				</div>
 				<OurGallery/>
 			</div>
