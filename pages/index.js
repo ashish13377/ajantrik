@@ -9,6 +9,7 @@ import Preloader from "../element/Preloader";
 import CounterHome from "../component/home/counterhome";
 import ServicesHome from "../component/home/serviceshome";
 import BlogHome from "../component/home/bloghome";
+import PressConference from "../component/home/press"
 
 
 
@@ -37,8 +38,10 @@ function Index() {
         <Slider />
         <OurVision />
         <AboutUsHome />
+        <PressConference />
         <CounterHome />
         <ServicesHome />
+
         {/* <BlogHome /> */}
         <br/>
         <br/>
